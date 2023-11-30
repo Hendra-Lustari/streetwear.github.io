@@ -74,7 +74,7 @@ body {
 
 /* header */
 #header {
-    background: url(/image/banner2.jpg) top/cover no-repeat;
+    background: url(./image/banner2.jpg) top/cover no-repeat;
 
 }
 
