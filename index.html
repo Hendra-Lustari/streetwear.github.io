@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!--Costum CSS-->
+    <link rel="stylesheet" href="/style.css">
+     <!--font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"/>
+     <!--Boostrap CSs-->
+    <link rel="stylesheet" href="/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+     <!--Navbar start-->
+     <nav class="navbar navbar-expand-md navbar-light bg-white py-0 pixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html" >
+          <img src="/image/logo/logo.png" alt="">
+        </a>
+        
+        
+        <div class="order-lg-2 nav-btns">
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">4</span>
+          </button>
+
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-user"></i>
+          </button>
+
+          <button type="button" class="btn position-relative" id="#searchicon">
+            <i class="fa fa-search"></i>
+          </button>
+
+          <div class="search-box">
+            <input type="search" placeholder="search here....">
+          </div>
+      </div>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header">home</a>
+            </li><li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#collection">collection</a>
+            </li>
+          </li><li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="#special">specials</a>
+          </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#blog">blogs</a>
+            </li>
+            <li class="nav-item px-2 py-2 border-0">
+              <a class="nav-link text-uppercase text-dark" href="#about">about us</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+     </nav>
+      <!--Navbar End-->
+
+
+      <!-- Header start -->
+      <Header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+
+        <div class="wrapper flex-wrap py-5">
+          <span class="icon-close"><i class='fa fa-times'></i></span>
+          <div class="form-box login">
+            <h2 class="title ">Login</h2>
+  
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                <input type="text" required>
+               <label for="">Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="fa fa-lock"></i></span>
+                <input type="password" required>
+              <label for="">Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+              </div>
+              <button type="submit" class="log-btn btn">Login</button>
+  
+              <div class="login-register">
+                <p>Belum punya akun? <a href="#" class="register-link">Daftar</a></p>
+              </div>
+            </form>
+          </div>
+
+          <div class="form-box register">
+            <h2 class="title ">Registration</h2>
+            <form action="#">
+
+              <div class="input-box">
+                <span class="icon"><i class='fa fa-user'></i></i></span>
+                <input type="text" required>
+               <label for="">Username</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                <input type="text" required>
+               <label for="">Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="fa fa-lock"></i></span>
+                <input type="password" required>
+              <label for="">Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label><input type="checkbox">I agree to the terms & conditions</label>
+              </div>
+              <button type="submit" class="log-btn btn">Register</button>
+  
+              <div class="login-register">
+                <p>Sudah punya akun? <a href="#" class="login-link">Login</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="container  d-flex align-items-center carousel-inner ">
+          <div class="text-center carousel-item active">
+             <H2 class="text-capitalize text-white">best collection</H2>
+             <h1 class="text-uppercase py-2 fw-bold text-white">new arrival</h1>
+             <a href="#collection" class="btn mt-3 text-uppercase">Shop Now</a>
+          </div>
+          <div class="text-center carousel-item">
+             <H2 class="text-capitalize text-white">best price and offer</H2>
+             <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
+             <a href="#special" class="btn mt-3 text-uppercase">Buy Now</a>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="nextcarousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </Header>
+      <!-- Header end -->
+
+
+      <!-- Collection -->
+      <section id="collection" class="py-5">
+        <div class="container">
+          <div class="title text-center">
+            <h2 class="position-relative d-inline-block">New Collection</h2>
+          </div>
+
+          <div class="row g-0">
+            <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+              <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter ="*">All</button>
+              <button type="button" class="btn m-2 text-dark" data-filter =".best">Best Sellers</button>
+              <button type="button" class="btn m-2 text-dark" data-filter =".feat">Featured</button>
+              <button type="button" class="btn m-2 text-dark" data-filter =".new">New Arrival</button>
+            </div>
+
+            <div class="collection-list mt-4 row gx-0 gy-4">
+              <div class="col-md col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/Produk1.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">OFF-WHITE SWEATSHIRT</p>
+                  <span class="fw-bold">Rp 5.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/product5.png" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">BAP CAMO HOODIE ZIPPER</p>
+                  <span class="fw-bold">Rp 12.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/product7.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">ASSC HODDIE</p>
+                  <span class="fw-bold">Rp 7.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/Product9.jpeg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">LV JEANS JACKET</p>
+                  <span class="fw-bold">Rp 15.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/OIP.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">SUPREME TRACKTOP</p>
+                  <span class="fw-bold">Rp 7.900.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/givency.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">GIVENCY BOOMBER JACKET</p>
+                  <span class="fw-bold">Rp 25.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/BBC.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">BILLIONARE BOYS CLUB VARSITY</p>
+                  <span class="fw-bold">Rp 17.600.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/balenciaga.png" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">BALENCIAGA T-SHIRT</p>
+                  <span class="fw-bold">Rp 4.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/Bp.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">OFF-WHITE CARGO PANTS</p>
+                  <span class="fw-bold">Rp 22.000.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/product11.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">SUPEREM x CHAMPION PANTS</p>
+                  <span class="fw-bold">Rp 14.590.000</span>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/product12.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">BALENCIAGA SWEATPANTS</p>
+                  <span class="fw-bold">Rp 6.000.000</span>
+                </div>
+              </div>
+
+               <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                <div class="collection-img position-relative">
+                  <img src="/image/produk img/product2.jpg" class="w-100">
+                  <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+                </div>
+                <div class="text-center">
+                  <div class="rating mt-3">
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                    <span class="text-danger"><i class="fas fa-star"></i></span>
+                  </div>
+                  <p class="text-capitalize my-1">OFF-WHITE COOL PANTS EVER</p>
+                  <span class="fw-bold">Rp 40.000.000</span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Collection end -->
+
+
+      <!-- Spesial Products-->
+       <section id="special" class="py-5">
+        <div class="container">
+          <div class="title text-center py-5">
+            <h2 class="position-relative d-inline-block">Special Products</h2>
+          </div>
+
+          <div class="special-list row g-0 mt-5">
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 my-3">
+              <div class="special-img position-relative overflow-hidden">
+                <img src="/image/produk img/produk2.jpg" class="w-100">
+                <span class="position-absolute d-flex align-items-center justify-content-center text-danger fs-4">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </div>
+               <div class="text-center">
+                <p class="text-capitalize mt-3 mb-1">Lv BROWN JACKET SPESIAL EDITION</p>
+                <span class="fw-bold d-block">Rp. 45.000.000</span>
+                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 my-3">
+              <div class="special-img position-relative overflow-hidden">
+                <img src="/image/produk img/Sbape.png" class="w-100">
+                <span class="position-absolute d-flex align-items-center justify-content-center text-danger fs-4">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </div>
+               <div class="text-center">
+                <p class="text-capitalize mt-3 mb-1">BAPE X COACH JACKET </p>
+                <span class="fw-bold d-block">Rp. 35.000.000</span>
+                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 my-3">
+              <div class="special-img position-relative overflow-hidden">
+                <img src="/image/produk img/bagsupreme.jpg" class="w-100">
+                <span class="position-absolute d-flex align-items-center justify-content-center text-danger fs-4">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </div>
+               <div class="text-center">
+                <p class="text-capitalize mt-3 mb-1">SUPREME BAG LIMITID EDITION </p>
+                <span class="fw-bold d-block">Rp. 32.000.000</span>
+                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 my-3">
+              <div class="special-img position-relative overflow-hidden">
+                <img src="/image/produk img/shoesbalenciaga.jpg" class="w-100">
+                <span class="position-absolute d-flex align-items-center justify-content-center text-danger fs-4">
+                  <i class="fas fa-heart"></i>
+                </span>
+              </div>
+               <div class="text-center">
+                <p class="text-capitalize mt-3 mb-1">BALENCIAGA SHOES </p>
+                <span class="fw-bold d-block">Rp. 21.000.000</span>
+                <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+               </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+      <!-- Spesial Products End-->
+
+
+      <!-- blog  -->
+       <section id="blog" class="py-5">
+        <div class="container">
+          <div class="title text-center py-5">
+            <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
+          </div>
+
+          <div class="row g-3">
+            <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+              <img src="/image/Jurnal image/hujan.jpg" alt="">
+              <div class="card-body px-0">
+                <h4 class="card-title">Tips Berpakain Saat hujan</h4>
+                <p class="card-text mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p class="card-text">
+                  <small class="text-muted">
+                    <span class="fw-bold">Author :</span> Jhon doe
+                  </small>
+                </p>
+                <a href="" class="btn">Read More</a>
+              </div>
+          </div>
+
+          <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+            <img src="/image/Jurnal image/Tips-Memilih-baju.jpg" alt="">
+            <div class="card-body px-0">
+              <h4 class="card-title">Tips Memillih Outfit</h4>
+              <p class="card-text mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <span class="fw-bold">Author :</span> Jhon doe
+                </small>
+              </p>
+              <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+          <img src="/image/Jurnal image/brand fashion.jpg" alt="">
+          <div class="card-body px-0">
+            <h4 class="card-title">Brand Fashion 2023 Terpopuler</h4>
+            <p class="card-text mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p class="card-text">
+              <small class="text-muted">
+                <span class="fw-bold">Author :</span> Jhon doe
+              </small>
+            </p>
+            <a href="" class="btn">Read More</a>
+          </div>
+      </div>
+        </div>
+       </section>
+
+      <!-- blog end -->
+
+      <!--- About us -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row gy-lg-5 align-items-center">
+      <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+        <div class="title pt-3 pb-5">
+          <h2 class="position-relative d-inline-block ms-4">About Us</h2>
+        </div>
+        <p class="lead">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+      </div>
+      <div class="col-lg-6 order-lg-0">
+        <img src="/image/Jurnal image/about us img.jpg" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!--- About us End-->
+
+      <!-- newslatter-->  
+      <section id="newslatter" class="py-5">
+        <div class="container">
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="title text-center pt-3 pb-5">
+              <h2 class="position-relative d-inline-block">Newsletter Subscription</h2>
+            </div>
+
+            <p class="text-center text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+            <div class="input-group mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Enter Your Email....">
+              <button class="btn btn-danger">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- newslatter end-->
+
+
+      <!--- Footer-->
+      <footer class="bg-dark py-5">
+        <div class="container">
+          <div class="row text-white g-4">
+            <div class="col-md-6 col-lg-3">
+              <a class="text-uppercase text-decoration-none brand text-white" href="index.html">street wear</a>
+              <ul class="list-unstyled">
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="index.html">Home</a>
+                </li>
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="#collection">Collection</a>
+                </li>
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="#special">Special Product</a>
+                </li>
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="#blog">Blogs</a>
+                </li>
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="#about">about Us</a>
+                </li>
+                <li class="my-3">
+                  <a class="text-white text-decoration-none fw-light" href="#">Career</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <h6 class="text-uppercase brand mb-3">bantuan</h6>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="fw-light mt-2">
+                  FAQ
+                </span>
+              </div>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="fw-light mt-2">
+                  Privacy policy
+                </span>
+              </div>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="fw-light mt-2 mb-3">
+                  Terms and condition
+                </span>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+              <h6 class="text-uppercase brand mb-3">customer service</h6>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="me-3">
+                  <i class="fas fa-map-marked-alt"></i>
+                </span>
+                <span class="fw-light">
+                  Jl.sudirman no.70, Gedung Plaza Anabola Lt.10, Jakarta Pusat.
+                </span>
+              </div>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="me-3">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="fw-light">
+                 cs.streetwearid@hype.com
+                </span>
+              </div>
+              <div class="d-flex justify-content-start align-items-start my-2">
+                <span class="me-3">
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+                <span class="fw-light">
+                  +62812 8890 8790
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <h5 class="brand mb-3">Follow Us</h5>
+              <div class="d-flex">
+                <ul class="list-unstyled d-flex">
+                  <li>
+                    <a href="" class="text-white text-decoration-none fs-4 me-4">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="text-white text-decoration-none fs-4 me-4">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="text-white text-decoration-none fs-4 me-4">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="text-white text-decoration-none fs-4 me-4">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+      <!--- Footer End-->
+
+
+  <!--Jquery-->
+  <script src="/js/jquery-3.7.1.js"></script> 
+  <!-- Isotope JS-->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <!--Boostrap Js-->
+  <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+   <!--Custome JS-->
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
